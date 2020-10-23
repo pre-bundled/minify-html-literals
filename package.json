@@ -1,5 +1,5 @@
 {
-  "name": "raynos-min-html",
+  "name": "@pre-bundled/raynos-min-html",
   "version": "2.0.0-svg",
   "description": "Minify HTML template literal strings",
   "main": "index.js",
@@ -55,13 +55,7 @@
     ],
     "all": true
   },
-  "dependencies": {
-    "@types/html-minifier": "^3.5.3",
-    "clean-css": "^4.2.1",
-    "html-minifier": "^4.0.0",
-    "magic-string": "^0.25.0",
-    "parse-literals": "^1.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/chai": "^4.1.4",
     "@types/clean-css": "^4.2.0",
@@ -81,5 +75,6 @@
     "standard-version": "^9.0.0",
     "ts-node": "^7.0.0",
     "typescript": "^2.9.2"
-  }
+  },
+  "peerDependencies": {}
 }
