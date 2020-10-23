@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const CleanCSS = require("clean-css");
-const html_minifier_1 = require("html-minifier");
+const CleanCSS = require("../pre-bundled/node_modules/clean-css");
+const html_minifier_1 = require("../pre-bundled/node_modules/html-minifier");
 /**
  * The default <code>clean-css</code> options, optimized for production
  * minification.

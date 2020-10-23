@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const magic_string_1 = require("magic-string");
-const parse_literals_1 = require("parse-literals");
+const magic_string_1 = require("../pre-bundled/node_modules/magic-string");
+const parse_literals_1 = require("../pre-bundled/node_modules/parse-literals");
 const strategy_1 = require("./strategy");
 /**
  * The default method to generate a SourceMap. It will generate the SourceMap
